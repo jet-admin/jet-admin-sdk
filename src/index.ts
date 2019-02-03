@@ -1,5 +1,5 @@
 /*
- * Public API Surface of jet-sdk
+ * Public API Surface of jet-admin-sdk
  */
 
 import { Injector } from '@app/core';
