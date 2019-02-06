@@ -1,6 +1,6 @@
 {
   "name": "jet-admin-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "ENV=production webpack"
   },
