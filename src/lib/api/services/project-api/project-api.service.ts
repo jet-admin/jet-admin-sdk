@@ -1,9 +1,9 @@
 import { throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { HttpErrorResponse, HttpHeaders, HttpResponse } from '@app/http';
-import { ProjectsStore } from '@app/projects/stores/projects.store';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { HttpErrorResponse, HttpHeaders, HttpResponse } from '../../../http';
+import { ProjectsStore } from '../../../projects/stores/projects.store';
 
 import { ServerRequestError } from '../../utils/server-request-error/server-request-error';
 import { ApiService } from '../api/api.service';

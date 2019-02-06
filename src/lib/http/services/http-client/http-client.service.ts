@@ -2,7 +2,7 @@ import axios from 'axios'
 import { from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
 import { HttpHeaders } from '../../models/http-headers';
 import { HttpParams } from '../../models/http-params';
 

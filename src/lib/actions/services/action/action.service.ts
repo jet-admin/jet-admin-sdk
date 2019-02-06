@@ -2,8 +2,8 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import * as _ from 'lodash';
 
-import { Injectable } from '@app/core';
-import { MessageService } from '@app/messages/services/message/message.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { MessageService } from '../../../messages/services/message/message.service';
 
 import { ActionDescription } from '../../models/action-description';
 

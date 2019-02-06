@@ -1,9 +1,9 @@
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { SingletonStore } from '@app/shared/stores/singleton.store';
-import { ProjectsStore } from '@app/projects/stores/projects.store';
+import { Injectable } from '../../core/decorators/injectable/injectable';
+import { SingletonStore } from '../../shared/stores/singleton.store';
+import { ProjectsStore } from '../../projects/stores/projects.store';
 
 import { ModelDescriptionService } from '../services/model-description/model-description.service';
 import { ModelDescription } from '../models/model-description';

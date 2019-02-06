@@ -1,4 +1,4 @@
-import { HttpHeaders } from '@app/http';
+import { HttpHeaders } from './http-headers';
 
 export class HttpResponseBase {
 

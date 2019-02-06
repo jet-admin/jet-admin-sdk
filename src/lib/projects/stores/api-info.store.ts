@@ -1,10 +1,10 @@
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { SingletonStore } from '@app/shared/stores/singleton.store';
-import { ApiInfoService } from '@app/api/services/api-info/api-info.service';
-import { ApiInfo } from '@app/api/models/api-info';
+import { Injectable } from '../../core/decorators/injectable/injectable';
+import { SingletonStore } from '../../shared/stores/singleton.store';
+import { ApiInfoService } from '../../api/services/api-info/api-info.service';
+import { ApiInfo } from '../../api/models/api-info';
 
 import { ProjectsStore } from './projects.store';
 

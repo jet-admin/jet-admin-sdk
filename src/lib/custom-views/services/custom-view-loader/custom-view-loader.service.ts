@@ -1,7 +1,7 @@
 import { combineLatest, Observable, of, ReplaySubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
 
 import { CustomView } from '../../models/custom-view';
 

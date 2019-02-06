@@ -1,6 +1,6 @@
 import { BehaviorSubject, Observable } from 'rxjs';
 
-import { Injectable } from '@app/core';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
 
 @Injectable
 export class MenuService {

@@ -1,11 +1,11 @@
 import { EMPTY, Observable, of } from 'rxjs';
 import { map, publishLast, refCount, switchMap } from 'rxjs/operators';
 
-import { Injectable, Injector } from '@app/core';
-import { HttpClient, HttpHeaders } from '@app/http';
-import { ProjectApiService } from '@app/api/services/project-api/project-api.service';
-import { DataGroup } from '@app/charts/models/data-group';
-import { Factory } from '@app/shared/services/factory/factory.service';
+import { Injectable, Injector } from '../../../core';
+import { HttpClient, HttpHeaders } from '../../../http';
+import { ProjectApiService } from '../../../api/services/project-api/project-api.service';
+import { DataGroup } from '../../../charts/models/data-group';
+import { Factory } from '../../../shared/services/factory/factory.service';
 
 import { Model } from '../../models/model';
 

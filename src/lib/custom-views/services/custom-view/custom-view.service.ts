@@ -2,9 +2,9 @@ import { Observable} from 'rxjs';
 import { map, publishLast, refCount } from 'rxjs/operators';
 import * as _ from 'lodash';
 
-import { Injectable } from '@app/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@app/http';
-import { ApiService } from '@app/api/services/api/api.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { HttpClient, HttpHeaders, HttpParams } from '../../../http';
+import { ApiService } from '../../../api/services/api/api.service';
 
 import { CustomView } from '../../models/custom-view';
 

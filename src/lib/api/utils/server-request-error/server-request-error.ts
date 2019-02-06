@@ -1,4 +1,4 @@
-import { HttpErrorResponse } from '@app/http';
+import { HttpErrorResponse } from '../../../http';
 import * as _ from 'lodash';
 
 export class ServerRequestError {

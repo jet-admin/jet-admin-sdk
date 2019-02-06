@@ -1,4 +1,4 @@
-import { Segment } from '@app/filters/models/segment';
+import { Segment } from '../../filters/models/segment';
 
 import { ModelDescriptionField } from './model-description-field';
 import { ModelDescriptionRelation } from './model-description-relation';

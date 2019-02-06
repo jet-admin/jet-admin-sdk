@@ -1,6 +1,4 @@
-import { FormField } from '@app/fields/models/form-field';
-
-// import { FieldDescription, getFieldDescriptionByType } from '@app/fields/models/fields';
+import { FormField } from '../../fields/models/form-field';
 
 import { ModelDescription } from './model-description';
 

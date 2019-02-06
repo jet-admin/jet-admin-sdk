@@ -2,10 +2,10 @@ import { Observable } from 'rxjs';
 import { map, publishLast, refCount, switchMap } from 'rxjs/operators';
 import * as _ from 'lodash';
 
-import { Injectable } from '@app/core';
-import { HttpClient, HttpHeaders } from '@app/http';
-import { ApiService } from '@app/api/services/api/api.service';
-import { ProjectApiService } from '@app/api/services/project-api/project-api.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { HttpClient, HttpHeaders } from '../../../http';
+import { ApiService } from '../../../api/services/api/api.service';
+import { ProjectApiService } from '../../../api/services/project-api/project-api.service';
 
 import { ModelDescription } from '../../models/model-description';
 

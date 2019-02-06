@@ -1,8 +1,8 @@
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { SingletonStore } from '@app/shared/stores/singleton.store';
+import { Injectable } from '../../core/decorators/injectable/injectable';
+import { SingletonStore } from '../../shared/stores/singleton.store';
 
 import { ActionService } from '../services/action/action.service';
 import { ActionDescription } from '../models/action-description';

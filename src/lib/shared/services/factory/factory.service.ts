@@ -1,4 +1,4 @@
-import { Injectable, Injector, Type } from '@app/core';
+import { Injectable, Injector, Type } from '../../../core';
 
 @Injectable
 export class Factory {

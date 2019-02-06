@@ -1,5 +1,5 @@
-import { FieldLookup } from '@app/fields/models/lookups/base';
-import { lookups } from '@app/fields/models/lookups';
+import { FieldLookup } from '../../fields/models/lookups/base';
+import { lookups } from '../../fields/models/lookups';
 
 export class FilterItem {
 

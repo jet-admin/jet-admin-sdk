@@ -1,6 +1,6 @@
 import * as _ from 'lodash';
 
-import { User } from '@app/users/models/user';
+import { User } from '../../users/models/user';
 
 import { ProjectGroup } from './project-group';
 import { ProjectPermissions, ProjectPermissionType } from './project-permission';

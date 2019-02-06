@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 
-import { Injectable } from '@app/core';
-import { SingletonStore } from '@app/shared/stores/singleton.store';
+import { Injectable } from '../../core/decorators/injectable/injectable';
+import { SingletonStore } from '../../shared/stores/singleton.store';
 
 import { UserService } from '../services/user/user.service';
 import { User } from '../models/user';

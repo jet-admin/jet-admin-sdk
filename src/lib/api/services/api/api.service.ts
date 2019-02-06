@@ -1,10 +1,10 @@
 import { throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { HttpErrorResponse, HttpHeaders } from '@app/http';
-import { AppConfigService } from '@app/core/services/app-config/app-config.service';
-import { StorageService } from '@app/core/services/storage/storage.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { HttpErrorResponse, HttpHeaders } from '../../../http';
+import { AppConfigService } from '../../../core/services/app-config/app-config.service';
+import { StorageService } from '../../../core/services/storage/storage.service';
 
 import { ServerRequestError } from '../../utils/server-request-error/server-request-error';
 

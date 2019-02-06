@@ -1,4 +1,4 @@
-import { FormField } from '@app/fields/models/form-field';
+import { FormField } from '../../fields/models/form-field';
 
 export class ModelFlexField {
   public name: string;

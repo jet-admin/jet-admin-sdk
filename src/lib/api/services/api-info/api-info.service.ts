@@ -1,8 +1,8 @@
 import { Observable } from 'rxjs';
 import { map, publishLast, refCount } from 'rxjs/operators';
 
-import { HttpClient } from '@app/http';
-import { Injectable } from '@app/core';
+import { HttpClient } from '../../../http';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
 
 import { ApiInfo } from '../../models/api-info';
 

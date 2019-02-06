@@ -1,9 +1,9 @@
 import { Observable } from 'rxjs';
 import { map, publishLast, refCount } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { HttpClient, HttpHeaders } from '@app/http';
-import { ApiService } from '@app/api/services/api/api.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { HttpClient, HttpHeaders } from '../../../http';
+import { ApiService } from '../../../api/services/api/api.service';
 
 import { MenuSettings } from '../../models/menu-settings';
 

@@ -1,11 +1,11 @@
-import { Injectable } from '@app/core';
-import { ApiService } from '@app/api/services/api/api.service';
-import { AuthService } from '@app/auth/services/auth/auth.service';
-import { ProjectApiService } from '@app/api/services/project-api/project-api.service';
-import { ProjectsStore } from '@app/projects/stores/projects.store';
-import { CurrentUserStore } from '@app/users/stores/current-user.store';
-import { ModelDescriptionStore } from '@app/models/stores/model-description.store';
-import { ModelService } from '@app/models/services/model/model.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { ApiService } from '../../../api/services/api/api.service';
+import { AuthService } from '../../../auth/services/auth/auth.service';
+import { ProjectApiService } from '../../../api/services/project-api/project-api.service';
+import { ProjectsStore } from '../../../projects/stores/projects.store';
+import { CurrentUserStore } from '../../../users/stores/current-user.store';
+import { ModelDescriptionStore } from '../../../models/stores/model-description.store';
+import { ModelService } from '../../../models/services/model/model.service';
 
 @Injectable
 export class PublicApiService {

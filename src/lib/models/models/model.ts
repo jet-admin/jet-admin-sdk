@@ -1,9 +1,9 @@
 import * as _ from 'lodash';
 
-import { Injector } from '@app/core';
-import { Factory } from '@app/shared/services/factory/factory.service';
-import { ModelDescriptionStore } from '@app/models/stores/model-description.store';
-import { ModelDescription } from '@app/models/models/model-description';
+import { Injector } from '../../core/services/injector/injector.service';
+import { Factory } from '../../shared/services/factory/factory.service';
+import { ModelDescriptionStore } from '../stores/model-description.store';
+import { ModelDescription } from './model-description';
 
 export class Model {
 

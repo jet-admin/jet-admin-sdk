@@ -1,11 +1,11 @@
-import { HttpClient, HttpHeaders, HttpParams } from '@app/http';
+import { HttpClient, HttpHeaders, HttpParams } from '../../../http';
 import { Observable, throwError } from 'rxjs';
 import { map, publishLast, refCount, catchError } from 'rxjs/operators';
 
-import { Injectable } from '@app/core';
-import { ApiService } from '@app/api/services/api/api.service';
-import { ServerRequestError } from '@app/api/utils/server-request-error/server-request-error';
-import { StorageService } from '@app/core/services/storage/storage.service';
+import { Injectable } from '../../../core/decorators/injectable/injectable';
+import { ApiService } from '../../../api/services/api/api.service';
+import { ServerRequestError } from '../../../api/utils/server-request-error/server-request-error';
+import { StorageService } from '../../../core/services/storage/storage.service';
 
 import { Project } from '../../models/project';
 
