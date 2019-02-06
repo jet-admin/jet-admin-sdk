@@ -23,5 +23,6 @@
   "peerDependency": {
     "lodash": "^4.17.11"
   },
-  "main": "dist/bundle.js"
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts"
 }
